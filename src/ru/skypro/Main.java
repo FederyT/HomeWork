@@ -31,8 +31,8 @@ public class Main {
         int eggsWeight = 70, amountEggs = 4;
         int AllProductsWeightInGrams = ((bananWeight * amountBanan) + (milkWeight * amountMilk) +
                 (CreamWeight * amountCream) + (eggsWeight * amountEggs));
-        int OneKilo = 1000;
-        int AllProductsWeightInKilograms = AllProductsWeightInGrams / OneKilo;
+        double OneKilo = 1000;
+        double AllProductsWeightInKilograms = AllProductsWeightInGrams / OneKilo;
         System.out.println("Вес всего спорт-завтрака " + AllProductsWeightInKilograms + "кг");
 
 
