@@ -67,6 +67,48 @@ public class Main {
         System.out.println ( "Кристина  теперь получает " + ChristinaSalaryAfter + " рублей. Годовой доход вырос на " + ChristinaDifference  + " рублей" );
 
 
+
+
+        // Задание 6
+        int a =12;
+        int b=27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = a * (b + (c - d * e));
+        System.out.println(- result);
+
+
+
+        // Задание 7 (взял другие названия переменных, т к в 6 задании уже использутся)
+
+      int f=5;
+      int z=7;
+      f = f+z-(z=f);
+      System.out.println (f);
+      System.out.println (z);
+
+      // Задание 8 (аналогично другие названия)
+        int g=686;
+        int o = g/10 %10;
+        System.out.println (o);
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
 }
